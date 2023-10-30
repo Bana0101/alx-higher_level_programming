@@ -3,15 +3,15 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all elements of a listint_t list
- * @h: pointer to head of list
+ * check_cycle -  checks if a singly linked list has a cycle in it.
+ * @list: the list
  * Return: number of nodes
  */
 int check_cycle(listint_t *list)
 {
 	listint_t *ptr1 = list, *ptr2 = list;
 
-	while(ptr1 &&& ptr1->next)
+	while(ptr1 && ptr1->next)
 	{
 		ptr1 = ptr1->next->next;
 		ptr2 = ptr2->next;
