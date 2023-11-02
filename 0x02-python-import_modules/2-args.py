@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
+
     ctr = len(sys.argv)
     if ctr > 2:
         print("{} arguments:".format(ctr - 1))
