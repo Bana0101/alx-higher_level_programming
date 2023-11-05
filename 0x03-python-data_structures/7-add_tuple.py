@@ -13,5 +13,3 @@ def add_tuple(tuple_a=(), tuple_b=()):
     else:
         xb, yb = tuple_b[0], tuple_b[1]
     return xa + xb, ya + yb
-
-
