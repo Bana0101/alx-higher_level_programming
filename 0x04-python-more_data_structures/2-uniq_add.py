@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 def uniq_add(my_list=[]):
     uq_set = set(my_list)
     sum_n = 0
