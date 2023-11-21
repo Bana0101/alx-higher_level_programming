@@ -11,6 +11,7 @@ class Square:
         - size (int): the size of the square
         """
         #size must be an integer
+
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
         #size must be positive
