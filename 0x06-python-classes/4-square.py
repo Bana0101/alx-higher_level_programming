@@ -10,7 +10,7 @@ class Square:
         Attribute:
         - size (int): the size of the square
         """
-        self.__size = size
+        self.size = size
 
     # Getter methode for the size
     @property
