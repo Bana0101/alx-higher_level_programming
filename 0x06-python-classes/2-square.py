@@ -10,12 +10,10 @@ class Square:
         Attribute:
         - size (int): the size of the square
         """
-        #size must be an integer
-
+        # size must be an integer
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
-        #size must be positive
-
+        # size must be positive
         elif size < 0:
             raise ValueError("size must be >= 0")
         self.__size = size
