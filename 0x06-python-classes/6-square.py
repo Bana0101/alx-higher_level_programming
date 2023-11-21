@@ -4,7 +4,7 @@
 
 class Square:
     """Defines a square."""
-    def __init__(self, size=0, position=(0,0)):
+    def __init__(self, size=0, position=(0, 0)):
         """
         initialize a new instance
         Attribute:
@@ -34,12 +34,13 @@ class Square:
     def position(self):
         return self.__position
 
- # Setter methode for the position
+    # Setter methode for the position
     @position.setter
     def position(self, value):
         if ((not isinstance(value, tuple)) or len(value) != 2):
             raise TypeError("position must be a tuple of 2 positive integers")
-        elif (not all(isinstance(x, int) for x in value) or not all(x >= 0 for x in value)):
+        elif (not all(isinstance(x, int) for x in value)
+                or not all(x >= 0 for x in value)):
             raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
