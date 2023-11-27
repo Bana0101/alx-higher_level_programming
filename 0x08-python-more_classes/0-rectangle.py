@@ -5,5 +5,5 @@ an empty classe
 
 
 class Rectangle:
-    # without any attribute
+    """ without any attribute"""
     pass
