@@ -56,7 +56,7 @@ class Rectangle:
             return ""
         str_rect = ""
         for n in range(self.height):
-            if n != self.height - 1: 
+            if n != self.height - 1:
                 str_rect += "#" * self.width + "\n"
             else:
                 str_rect += "#" * self.width
