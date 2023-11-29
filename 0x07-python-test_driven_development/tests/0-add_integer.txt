@@ -52,3 +52,9 @@ Test number 9:
 Test number 10:
 	>>> add_integer(9)
 	107
+
+Test number 11:
+	>>> add_integer(float('NaN'),3)
+	Traceback (most recent call last):
+	...
+	ValueError: cannot convert float NaN to integer
