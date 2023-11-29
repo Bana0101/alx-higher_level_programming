@@ -48,3 +48,7 @@ Test number 9:
 	Traceback (most recent call last):
 	...
        	TypeError: a must be an integer
+
+Test number 10:
+	>>> add_integer(9)
+	107
