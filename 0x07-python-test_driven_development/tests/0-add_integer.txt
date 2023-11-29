@@ -58,3 +58,10 @@ Test number 11:
 	Traceback (most recent call last):
 	...
 	ValueError: cannot convert float NaN to integer
+
+Test number 12:
+	>>> add_integer(1.9e999,0)
+	Traceback (most recent call last):
+	...
+	OverflowError: cannot convert float infinity to integer
+	
