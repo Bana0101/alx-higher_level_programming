@@ -22,3 +22,21 @@ Test number 4:
 	Traceback (most recent call last):
        	...
 	TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'div'
+
+Test number 5:
+	>>> matrix_divided([[2],[3]], "string")
+	Traceback (most recent call last):
+       	...
+	TypeError: div must be a number
+
+Test number 6:
+	>>> matrix_divided([[2],[3, 6]], 5)
+	Traceback (most recent call last):
+       	...
+	TypeError: Each row of the matrix must have the same size
+
+Test number 7:
+	>>> matrix_divided([[2],['e']], 5)
+	Traceback (most recent call last):
+       	...
+	TypeError: matrix must be a matrix (list of lists) of integers/floats
