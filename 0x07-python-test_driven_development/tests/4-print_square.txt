@@ -10,3 +10,9 @@ Test number 2:
 	Traceback (most recent call last):
 	...
 	ValueError: size must be >= 0
+
+Test number 3:
+	>>> print_square("string")
+	Traceback (most recent call last):
+	...
+	TypeError: size must be an integer
