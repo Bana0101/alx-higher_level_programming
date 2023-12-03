@@ -40,3 +40,7 @@ Test number 7:
 	Traceback (most recent call last):
        	...
 	TypeError: matrix must be a matrix (list of lists) of integers/floats
+
+Test number 8:
+	>>> matrix_divided([[2],[4]], 9e99999999)
+	[[0.0], [0.0]]
