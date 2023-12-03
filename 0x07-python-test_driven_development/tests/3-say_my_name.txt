@@ -8,7 +8,7 @@ Test number 1:
 	TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
 Test number 2:
-	>>> say_my_name()
+	>>> say_my_name("string", 3)
 	Traceback (most recent call last):
        	...
 	TypeError: last_name must be a string
