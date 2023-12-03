@@ -18,3 +18,7 @@ Test number 3:
 	Traceback (most recent call last):
        	...
 	TypeError: first_name must be a string
+
+Test number 4:
+	>>> say_my_name("ayoub", "bana")
+	my name is ayoub bana
