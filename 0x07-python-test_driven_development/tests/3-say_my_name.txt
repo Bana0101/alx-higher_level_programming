@@ -12,3 +12,9 @@ Test number 2:
 	Traceback (most recent call last):
        	...
 	TypeError: last_name must be a string
+
+Test number 3:
+	>>> say_my_name(5, "string")
+	Traceback (most recent call last):
+       	...
+	TypeError: first_name must be a string
