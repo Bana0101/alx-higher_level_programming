@@ -1,0 +1,12 @@
+Import module:
+	>>> print_square = __import__('4-print_square').print_square
+
+Test number 1:
+	>>> print_square(1)
+	#
+
+Test number 2:
+	>>> print_square(-1)
+	Traceback (most recent call last):
+	...
+	ValueError: size must be >= 0
