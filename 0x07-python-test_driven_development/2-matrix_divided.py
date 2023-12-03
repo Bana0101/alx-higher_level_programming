@@ -19,6 +19,8 @@ def matrix_divided(matrix, div):
                 raise TypeError(Error)
             new_matrix[i][j] = round(new_matrix[i][j] / div, 2)
     return new_matrix
+
+
 if __name__ == "__main__":
     import doctest
     doctest.testfile("tests/2-matrix_divided.txt")
