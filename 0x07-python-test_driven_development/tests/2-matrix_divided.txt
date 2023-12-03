@@ -3,7 +3,7 @@ Import module:
 
 Test number 1:
 	>>> matrix_divided([[2],[3]], 0)
-	Traceback (most recent call last)
+	Traceback (most recent call last):
 	...
 	ZeroDivisionError: division by zero
 
