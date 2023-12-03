@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+""" module documentation"""
+
+
 def print_square(size):
+    """ a function that prints a square with the character #."""
     if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
@@ -8,6 +12,7 @@ def print_square(size):
         raise TypeError("size must be an integer")
     for _ in range(size):
         print("#" * size)
+
 
 if __name__ == "__main__":
     import doctest
