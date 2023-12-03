@@ -21,4 +21,4 @@ Test number 3:
 
 Test number 4:
 	>>> say_my_name("ayoub", "bana")
-	my name is ayoub bana
+	My name is ayoub bana
