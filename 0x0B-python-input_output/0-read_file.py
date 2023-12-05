@@ -5,4 +5,4 @@
 def read_file(filename=""):
     """ function that reads a text file """
     with open(filename, 'r') as fd:
-        print(fd.read())
+        print(fd.read(), end="")
