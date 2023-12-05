@@ -18,3 +18,8 @@ test number 3:
 	[2, 3, 4]
 	>>> my_list
 	[2, 4, 3]
+
+test number 4:
+	>>> my_list = MyList([2, -1])
+	>>> my_list.print_sorted()
+	[-1, 2]
