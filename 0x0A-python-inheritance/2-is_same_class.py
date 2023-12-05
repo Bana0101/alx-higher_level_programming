@@ -7,8 +7,3 @@ def is_same_class(obj, a_class):
     if isinstance(obj, a_class):
         return True
     return False
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testfile("tests/1-my_list.txt")
