@@ -7,7 +7,12 @@ Test number 1:
 	Traceback (most recent call last):
 	TypeError: print_sorted() takes 1 positional argument but 2 were given
 
-Test number 2:
+test number 2:
 	>>> my_list = MyList()
 	>>> my_list.print_sorted()
 	[]
+
+test number 3:
+	>>> my_list = MyList([2, 4, 3])
+	>>> my_list.print_sorted()
+	[2, 3, 4]
