@@ -4,4 +4,4 @@
 
 def inherits_from(obj, a_class):
     """ a function that returns True or false"""
-    return not (isinstance(obj, a_class) and type(obj) == a_class)
+    return not (not isinstance(obj, a_class) or type(obj) == a_class)
