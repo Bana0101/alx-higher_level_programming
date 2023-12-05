@@ -6,3 +6,9 @@ Test number 1:
 	>>> my_list.print_sorted([0, 3, 2])
 	Traceback (most recent call last):
 	TypeError: print_sorted() takes 1 positional argument but 2 were given
+
+Test number 2:
+	>>> my_list = MyList()
+	>>> my_list.print_sorted([0, 3, 2], "a")
+	Traceback (most recent call last):
+	TypeError: print_sorted() takes 1 positional argument but 3 were given
