@@ -16,3 +16,5 @@ test number 3:
 	>>> my_list = MyList([2, 4, 3])
 	>>> my_list.print_sorted()
 	[2, 3, 4]
+	>>> my_list
+	[2, 4, 3]
