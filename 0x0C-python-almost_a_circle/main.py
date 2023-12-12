@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-""" 3-main """
+""" Check """
+import inspect
 from models.rectangle import Rectangle
 
-if __name__ == "__main__":
+area_fct = Rectangle.__dict__.get("area")
+if area_fct is None:
+    print("Rectangle doesn't have method area")
+    exit(1)
 
-    r1 = Rectangle(3, 2)
-    print(r1.area())
+if not inspect.isfunction(area_fct):
+    print("area is not a function")
+    exit(1)
 
-    r2 = Rectangle(2, 10)
-    print(r2.area())
-
-    r3 = Rectangle(8, 7, 0, 0, 12)
-    print(r3.area())
+print("OK", end="")
