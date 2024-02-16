@@ -3,6 +3,7 @@
 import MySQLdb
 import sys
 
+
 if __name__ == "__main__":
     data = MySQLdb.connect(
             user = sys.argv[1],
