@@ -1,3 +1,4 @@
 #!/bin/bash
-# sends a DELETE request to the URL passed as the first argument and displays the body of the response
-curl -s -X DELETE "${1}"
+# Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response
+curl -s -d  "eamil=test@gmail.com&subject=I will always be here for PLD" "${1}"
+
